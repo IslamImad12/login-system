@@ -1,0 +1,57 @@
+/* General classes*/
+.w-fit {
+    width: fit-content;
+}
+.max-w-500 {
+    max-width: 500px;
+}
+.text-gray {
+    color: gray;
+}
+@media screen and (min-width:992px) {
+    .w-lg-75 {
+        width: 75%;
+    }
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* */
+header {
+    height: calc(100vh - 56px);
+}
+body {
+    background-image: url(3418448.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: #17a2b8;
+}
+.group {
+    position: relative;
+    top: 80px;
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.nav {
+    background-color: blueviolet !important;
+}
+.welcome {
+    font-size: 50px;
+    margin-top: 14%;
+    
+}
+input {
+    outline: none;
+}
+::selection {
+    background-color: black;
+    color: yellow;
+}
